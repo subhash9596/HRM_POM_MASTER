@@ -1,0 +1,133 @@
+[INFO ] 2023-01-05 14:41:04.199 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 14:41:04.200 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 14:41:04.226 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:41:04.433 [main] HRM-Enter Password
+[INFO ] 2023-01-05 14:41:04.623 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 14:41:06.734 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 14:41:06.749 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 14:41:09.689 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 14:41:09.689 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 14:41:09.691 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:41:09.918 [main] HRM-Enter Password
+[INFO ] 2023-01-05 14:41:10.132 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 14:41:11.188 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 14:41:11.202 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 14:41:13.818 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 14:41:13.822 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 14:41:14.439 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:41:14.651 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 14:41:15.249 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-05 14:48:17.097 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 14:48:17.099 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 14:48:17.132 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:48:17.357 [main] HRM-Enter Password
+[INFO ] 2023-01-05 14:48:17.540 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 14:48:19.789 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 14:48:19.810 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 14:48:22.767 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 14:48:22.768 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 14:48:22.769 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:48:23.039 [main] HRM-Enter Password
+[INFO ] 2023-01-05 14:48:23.238 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 14:48:24.289 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 14:48:24.301 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 14:48:26.982 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 14:48:26.986 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 14:48:27.587 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:48:27.739 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 14:48:28.197 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-05 14:54:53.642 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 14:54:53.643 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 14:54:53.678 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:54:53.867 [main] HRM-Enter Password
+[INFO ] 2023-01-05 14:54:54.031 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 14:54:55.813 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 14:54:55.830 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 14:54:58.681 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 14:54:58.681 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 14:54:58.682 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:54:58.944 [main] HRM-Enter Password
+[INFO ] 2023-01-05 14:54:59.120 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 14:55:00.174 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 14:55:00.189 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 14:55:03.006 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 14:55:03.009 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 14:55:03.724 [main] HRM-Enter Username
+[INFO ] 2023-01-05 14:55:03.943 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 14:55:04.518 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-05 15:02:32.814 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:02:32.815 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:02:32.843 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:02:33.009 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:02:33.181 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:02:35.355 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:02:35.370 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:02:38.241 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:02:38.241 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:02:38.242 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:02:38.421 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:02:38.569 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:02:39.574 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:02:39.584 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:02:42.353 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 15:02:42.357 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 15:02:43.012 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:02:43.190 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 15:02:43.791 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-05 15:06:54.706 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:06:54.706 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:06:54.731 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:06:54.941 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:06:55.140 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:06:57.323 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:06:57.336 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:07:00.063 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:07:00.066 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:07:00.066 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:07:00.294 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:07:00.478 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:07:01.505 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:07:01.523 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:07:04.296 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 15:07:04.301 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 15:07:04.947 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:07:05.160 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 15:07:05.752 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-05 15:07:50.953 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:07:50.953 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:07:50.981 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:07:51.196 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:07:51.385 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:07:53.476 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:07:53.490 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:07:56.179 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:07:56.179 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:07:56.179 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:07:56.376 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:07:56.549 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:07:57.617 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:07:57.626 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:08:00.360 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 15:08:00.366 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 15:08:01.002 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:08:01.208 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 15:08:01.784 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-05 15:30:14.845 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:30:14.845 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:30:14.877 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:30:15.221 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:30:15.423 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:30:17.810 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:30:17.863 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:30:20.719 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-05 15:30:20.719 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-05 15:30:20.719 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:30:20.920 [main] HRM-Enter Password
+[INFO ] 2023-01-05 15:30:21.088 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-05 15:30:22.170 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-05 15:30:22.181 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-05 15:30:24.796 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-05 15:30:24.804 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-05 15:30:25.515 [main] HRM-Enter Username
+[INFO ] 2023-01-05 15:30:25.686 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-05 15:30:26.329 [main] HRM-Validation - Verify Exp and Act Result
