@@ -74,3 +74,60 @@
 [INFO ] 2023-01-06 11:11:35.760 [main] HRM-Enter Username
 [INFO ] 2023-01-06 11:11:35.914 [main] HRM-Click on ResetPassword button
 [INFO ] 2023-01-06 11:11:36.448 [main] HRM-****TestCase Verify ForGot Password ends*******
+[INFO ] 2023-01-06 11:56:16.011 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-06 11:56:16.011 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-06 11:56:16.031 [main] HRM-Enter Username
+[INFO ] 2023-01-06 11:56:16.222 [main] HRM-Enter Password
+[INFO ] 2023-01-06 11:56:16.389 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-06 11:56:18.951 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-06 11:56:18.964 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-06 11:56:21.477 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-06 11:56:21.477 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-06 11:56:21.477 [main] HRM-Enter Username
+[INFO ] 2023-01-06 11:56:21.642 [main] HRM-Enter Password
+[INFO ] 2023-01-06 11:56:21.793 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-06 11:56:22.792 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-06 11:56:22.802 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-06 11:56:25.406 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-06 11:56:25.409 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-06 11:56:25.969 [main] HRM-Enter Username
+[INFO ] 2023-01-06 11:56:26.126 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-06 11:56:26.652 [main] HRM-****TestCase Verify ForGot Password ends*******
+[INFO ] 2023-01-06 12:07:52.386 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-06 12:07:52.393 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-06 12:07:52.419 [main] HRM-Enter Username
+[INFO ] 2023-01-06 12:07:52.645 [main] HRM-Enter Password
+[INFO ] 2023-01-06 12:07:52.808 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-06 12:07:55.184 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-06 12:07:55.233 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-06 12:07:57.965 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-06 12:07:57.965 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-06 12:07:57.970 [main] HRM-Enter Username
+[INFO ] 2023-01-06 12:07:58.180 [main] HRM-Enter Password
+[INFO ] 2023-01-06 12:07:58.361 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-06 12:07:59.503 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-06 12:07:59.510 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-06 12:08:02.399 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-06 12:08:02.401 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-06 12:08:03.021 [main] HRM-Enter Username
+[INFO ] 2023-01-06 12:08:03.213 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-06 12:08:03.786 [main] HRM-****TestCase Verify ForGot Password ends*******
+[INFO ] 2023-01-06 13:04:27.546 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-06 13:04:27.548 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-06 13:04:27.576 [main] HRM-Enter Username
+[INFO ] 2023-01-06 13:04:27.763 [main] HRM-Enter Password
+[INFO ] 2023-01-06 13:04:27.967 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-06 13:04:33.858 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-06 13:04:33.873 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-06 13:04:36.878 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-06 13:04:36.878 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-06 13:04:36.879 [main] HRM-Enter Username
+[INFO ] 2023-01-06 13:04:37.072 [main] HRM-Enter Password
+[INFO ] 2023-01-06 13:04:37.237 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-06 13:04:38.414 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-06 13:04:38.424 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-06 13:04:41.275 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-06 13:04:41.282 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-06 13:04:42.074 [main] HRM-Enter Username
+[INFO ] 2023-01-06 13:04:42.271 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-06 13:04:42.904 [main] HRM-****TestCase Verify ForGot Password ends*******
