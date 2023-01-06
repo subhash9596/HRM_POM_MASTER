@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-05T13:45:02 IST" name="Default suite" finished-at="2023-01-05T13:45:18 IST" duration-ms="16670">
+  <suite started-at="2023-01-06T17:43:00 IST" name="Default suite" finished-at="2023-01-06T17:43:08 IST" duration-ms="7525">
     <groups>
     </groups>
-    <test started-at="2023-01-05T13:45:02 IST" name="Default test" finished-at="2023-01-05T13:45:18 IST" duration-ms="16670">
+    <test started-at="2023-01-06T17:43:00 IST" name="Default test" finished-at="2023-01-06T17:43:08 IST" duration-ms="7525">
       <class name="com.hrm.testcases.VerifyForgotPassword">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.testcases.VerifyForgotPassword@51c668e3]" started-at="2023-01-05T13:45:14 IST" name="setUp" finished-at="2023-01-05T13:45:16 IST" duration-ms="2137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.testcases.VerifyForgotPassword@47faa49c]" started-at="2023-01-06T17:43:00 IST" name="setUp" finished-at="2023-01-06T17:43:06 IST" duration-ms="5443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="passWordRest()[pri:0, instance:com.hrm.testcases.VerifyForgotPassword@51c668e3]" started-at="2023-01-05T13:45:16 IST" name="passWordRest" finished-at="2023-01-05T13:45:18 IST" duration-ms="1363" status="FAIL">
+        <test-method signature="passWordRest()[pri:0, instance:com.hrm.testcases.VerifyForgotPassword@47faa49c]" started-at="2023-01-06T17:43:06 IST" name="passWordRest" finished-at="2023-01-06T17:43:07 IST" duration-ms="1377" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -22,7 +22,7 @@ expected [Reset Password link sent successfully] but found [test]]]>
 expected [Reset Password link sent successfully] but found [test]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.hrm.testcases.VerifyForgotPassword.passWordRest(VerifyForgotPassword.java:33)
+at com.hrm.testcases.VerifyForgotPassword.passWordRest(VerifyForgotPassword.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,61 +57,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passWordRest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.testcases.VerifyForgotPassword@51c668e3]" started-at="2023-01-05T13:45:18 IST" name="tearDown" finished-at="2023-01-05T13:45:18 IST" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.testcases.VerifyForgotPassword@47faa49c]" started-at="2023-01-06T17:43:07 IST" name="tearDown" finished-at="2023-01-06T17:43:08 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrm.testcases.VerifyForgotPassword -->
-      <class name="com.hrm.testcases.HrmLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.testcases.HrmLogin@4d5650ae]" started-at="2023-01-05T13:45:03 IST" name="setUp" finished-at="2023-01-05T13:45:07 IST" duration-ms="4035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="hrmAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:com.hrm.testcases.HrmLogin@4d5650ae]" started-at="2023-01-05T13:45:07 IST" name="hrmAdminLogin" data-provider="Login_Data" finished-at="2023-01-05T13:45:09 IST" duration-ms="2558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Subhash@9596]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hrmAdminLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.testcases.HrmLogin@4d5650ae]" started-at="2023-01-05T13:45:09 IST" name="tearDown" finished-at="2023-01-05T13:45:10 IST" duration-ms="674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.testcases.HrmLogin@4d5650ae]" started-at="2023-01-05T13:45:10 IST" name="setUp" finished-at="2023-01-05T13:45:12 IST" duration-ms="2071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="hrmAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:com.hrm.testcases.HrmLogin@4d5650ae]" started-at="2023-01-05T13:45:12 IST" name="hrmAdminLogin" data-provider="Login_Data" finished-at="2023-01-05T13:45:13 IST" duration-ms="1384" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hrmAdminLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.testcases.HrmLogin@4d5650ae]" started-at="2023-01-05T13:45:13 IST" name="tearDown" finished-at="2023-01-05T13:45:14 IST" duration-ms="662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hrm.testcases.HrmLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

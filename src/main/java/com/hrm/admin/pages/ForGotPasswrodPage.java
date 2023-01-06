@@ -1,15 +1,13 @@
 package com.hrm.admin.pages;
-
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.hrm.baseclass.Base;
 
-public class ForGotPasswrodPage {
+public class ForGotPasswrodPage extends Base {
+	
 	// create object of webdriver
-	WebDriver driver;
+	//WebDriver driver;
 	// Username
 	@FindBy(xpath = "//input[@name='securityAuthentication[userName]']")
 	public WebElement orangehrmusername;
@@ -21,7 +19,7 @@ public class ForGotPasswrodPage {
 	public WebElement cancelbutton;
 
 	public ForGotPasswrodPage() {
-		PageFactory.initElements(Base.driver, this);
+		PageFactory.initElements(driver, this);
 	}
 
 }

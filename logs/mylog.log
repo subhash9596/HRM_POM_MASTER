@@ -264,3 +264,8 @@
 [INFO ] 2023-01-06 17:19:23.658 [main] HRM-Enter Username
 [INFO ] 2023-01-06 17:19:23.820 [main] HRM-Click on ResetPassword button
 [INFO ] 2023-01-06 17:19:24.344 [main] HRM-Validation - Verify Exp and Act Result
+[INFO ] 2023-01-06 17:43:06.103 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-06 17:43:06.167 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-06 17:43:06.817 [main] HRM-Enter Username
+[INFO ] 2023-01-06 17:43:06.990 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-06 17:43:07.438 [main] HRM-Validation - Verify Exp and Act Result

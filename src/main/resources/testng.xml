@@ -9,7 +9,6 @@
   <test name="HRM Application Test Cases">
     <classes>
         <class name="com.hrm.baseclass.Base"/>
-        <class name="com.hrm.dataprovider.StaticDataProvider"/>
        <class name="com.hrm.testcases.HrmLogin"/>
        <class name="com.hrm.testcases.VerifyForgotPassword"/>  
     </classes>
