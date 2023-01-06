@@ -16,9 +16,9 @@ import org.openqa.selenium.WebDriver;
 import com.hrm.baseclass.Base;
 
 public class Screenshot extends Base {
-	
+
 	public static String screenshotsSubFolderName;
-	
+
 	public static String captureScreenshot(String fileName) {
 		if (screenshotsSubFolderName == null) {
 			LocalDateTime myDateObj = LocalDateTime.now();
@@ -27,15 +27,14 @@ public class Screenshot extends Base {
 		}
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("./Screenshots/"+screenshotsSubFolderName +"/"+fileName);
+		File destFile = new File("./Screenshots/" + screenshotsSubFolderName + "/" + fileName);
 		try {
 			FileUtils.copyFile(sourceFile, destFile);
 		} catch (IOException e) {
 			e.printStackTrace();
-		
+
 		}
 		return destFile.getAbsolutePath();
 	}
-
 
 }

@@ -22,7 +22,7 @@ public static Logger logger;
 
 @BeforeMethod(alwaysRun = true)
 public static WebDriver setUp() {
-
+	//launch browser
 	ConfigReader.readProperties(Constants.CONFIGS_FILE_PATH);
 	switch (ConfigReader.getProperty("browser").toLowerCase()) {
 	case "chrome":
@@ -41,9 +41,13 @@ public static WebDriver setUp() {
 	default:
 		throw new RuntimeException("Browser is not supported");
 	}
+	//Full screen current window
 	driver.manage().window().fullscreen();
+	//implicit wait 
 	driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);
+	//For Loggin 
 	logger = LogManager.getLogger("HRM");
+	//Open url 
 	driver.get(ConfigReader.getProperty("URL"));
 	return driver;
 			}	

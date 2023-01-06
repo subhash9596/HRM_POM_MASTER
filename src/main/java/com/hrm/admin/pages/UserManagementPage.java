@@ -8,31 +8,30 @@ import org.openqa.selenium.support.PageFactory;
 import com.hrm.baseclass.Base;
 
 public class UserManagementPage {
-	//Create object of web driver
-		WebDriver driver;
-		
-		//User Name 
-	    @FindBy(xpath = "//input[@id='txtUsername']")
-	    public WebElement userid;
-	    
-	    //Passwrod
-	    @FindBy(xpath = "//input[@id='txtPassword']")
-		public WebElement password;		
-		//Login Button
-	    @FindBy(xpath = "//input[@id='btnLogin']")
-		public WebElement btnLogin;
-	        
-	    //Login Falure tool tip Messsage or User can not be empty
-		@FindBy(xpath = "//span[@id='spanMessage']")
-		public WebElement LoginFalureMessage;
-		
-		//Forgot Passweord link
-		@FindBy(linkText="Forgot your password?")
-	    public WebElement forgotpasswordlink;
+	// Create object of web driver
+	WebDriver driver;
 
-		public UserManagementPage() {
+	// Admin link
+	@FindBy(linkText = "Admin")
+	public WebElement adminlink;
+
+	// Passwrod
+	@FindBy(xpath = "//input[@id='txtPassword']")
+	public WebElement password;
+	// Login Button
+	@FindBy(xpath = "//input[@id='btnLogin']")
+	public WebElement btnLogin;
+
+	// Login Falure tool tip Messsage or User can not be empty
+	@FindBy(xpath = "//span[@id='spanMessage']")
+	public WebElement LoginFalureMessage;
+
+	// Forgot Passweord link
+	@FindBy(linkText = "Forgot your password?")
+	public WebElement forgotpasswordlink;
+
+	public UserManagementPage() {
 		PageFactory.initElements(Base.driver, this);
 	}
-
 
 }
