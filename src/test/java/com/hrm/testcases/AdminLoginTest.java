@@ -7,9 +7,9 @@ import com.hrm.dataprovider.StaticDataProvider;
 import com.hrm.utilities.CommanMethods;
 import com.sun.org.slf4j.internal.Logger;
 
-public class HrmLogin extends Base{
+public class AdminLoginTest extends Base{
 	
-	@Test(dataProviderClass = StaticDataProvider.class,dataProvider = "Login_Data")
+	@Test()
 	public void hrmAdminLogin(String Username,String Passwrod ) {
 		logger.info("***************TestCase Verify Login starts*****************");
 		logger.info("Create Object of Home Page to call all the Elements");
@@ -29,18 +29,18 @@ public class HrmLogin extends Base{
 		sa.assertAll();
 		logger.info("***************TestCase Verify Login ends *****************");
 	}
-//	@Test()
-//	public void dataDrivenTest(String Username, String Password, String ErrorMessage) {
-//		HomePage homepage = new HomePage();
-//		CommanMethods.sendText(homepage.userid, Username);
-//		CommanMethods.sendText(homepage.password, Password);
-//		CommanMethods.click(homepage.Login);
-//		String actualerrormessage = homepage.LoginFalureMessage.getText();
-//		System.out.println(actualerrormessage);
-//		SoftAssert sa = new SoftAssert();
-//		sa.assertEquals(ErrorMessage, actualerrormessage, "error message are not matching");
-//		sa.assertAll();
-//
-//	}
+	@Test()
+	public void dataDrivenTest(String Username, String Password, String ErrorMessage) {
+		HomePage homepage = new HomePage();
+		CommanMethods.sendText(homepage.userid, Username);
+		CommanMethods.sendText(homepage.password, Password);
+		CommanMethods.click(homepage.btnLogin);
+		String actualerrormessage = homepage.LoginFalureMessage.getText();
+		System.out.println(actualerrormessage);
+		SoftAssert sa = new SoftAssert();
+		sa.assertEquals(ErrorMessage, actualerrormessage, "error message are not matching");
+		sa.assertAll();
+
+	}
   
 }

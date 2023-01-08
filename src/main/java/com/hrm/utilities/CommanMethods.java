@@ -23,8 +23,8 @@ public class CommanMethods extends Base {
 		element.sendKeys(text);
 	}
 
-	public static void getText(WebElement element) {
-		element.getText();
+	public static String getText(WebElement element) {
+		return element.getText();
 
 	}
 

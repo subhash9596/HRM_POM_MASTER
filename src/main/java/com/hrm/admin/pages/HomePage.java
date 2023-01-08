@@ -1,19 +1,13 @@
 package com.hrm.admin.pages;
-
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.hrm.baseclass.Base;
 
-public class HomePage {
-	
+public class HomePage extends Base {
 	
 	//identify webelements
-	// Create object of web driver
-	WebDriver driver;
-
 	// User Name
 	@FindBy(xpath = "//input[@id='txtUsername']")
 	public WebElement userid;
@@ -34,9 +28,9 @@ public class HomePage {
 	public WebElement forgotpasswordlink;
 
 
-	//constructor
+	//Constructor
 	public HomePage() {
-		PageFactory.initElements(Base.driver, this);
+		PageFactory.initElements(driver, this);
 	}
 
 }
