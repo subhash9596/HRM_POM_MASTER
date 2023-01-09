@@ -423,3 +423,17 @@
 [INFO ] 2023-01-08 17:10:17.022 [main] HRM-Enter Employee Name
 [INFO ] 2023-01-08 17:10:17.280 [main] HRM-Select Status
 [INFO ] 2023-01-08 17:10:17.428 [main] HRM-Click on Search button 
+[INFO ] 2023-01-08 18:55:43.400 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-08 18:55:43.409 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-08 18:55:43.450 [main] HRM-Enter Username
+[INFO ] 2023-01-08 18:55:43.647 [main] HRM-Enter Password
+[INFO ] 2023-01-08 18:55:43.807 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-08 18:55:49.654 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-08 18:55:49.675 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-08 18:55:52.481 [main] HRM-***************TestCase Verify Login starts*****************
+[INFO ] 2023-01-08 18:55:52.482 [main] HRM-Create Object of Home Page to call all the Elements
+[INFO ] 2023-01-08 18:55:52.482 [main] HRM-Enter Username
+[INFO ] 2023-01-08 18:55:52.710 [main] HRM-Enter Password
+[INFO ] 2023-01-08 18:55:52.880 [main] HRM-CClick on Login Button
+[INFO ] 2023-01-08 18:55:53.845 [main] HRM-Validate- Acutal and Expected Result
+[INFO ] 2023-01-08 18:55:53.856 [main] HRM-***************TestCase Verify Login ends *****************

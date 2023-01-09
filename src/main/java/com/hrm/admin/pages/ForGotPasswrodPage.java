@@ -7,7 +7,6 @@ import com.hrm.baseclass.Base;
 public class ForGotPasswrodPage extends Base {
 	
 	// create object of webdriver
-	//WebDriver driver;
 	// Username
 	@FindBy(xpath = "//input[@name='securityAuthentication[userName]']")
 	public WebElement orangehrmusername;
