@@ -2,15 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-<listeners>
-<listener class-name="com.hrm.utilities.ExtentListener"></listener>
-</listeners>
+	<listeners>
+		<listener class-name="com.hrm.utilities.ExtentListener"></listener>
+	</listeners>
 
-  <test name="HRM Application Test Cases">
-    <classes>
-        <class name="com.hrm.baseclass.Base"/>
-       <class name="com.hrm.testcases.AdminLoginTest"/> 
-       <class name="com.hrm.testcases.VerifyForgotPassword"/> 
-    </classes>
-  </test> <!-- Test -->
+	<test name="HRM Application Test Cases">
+		<classes>
+			<class name="com.hrm.baseclass.Base" />
+			<class name="com.hrm.testcases.AdminLoginTest" />
+			<class name="com.hrm.testcases.VerifyForgotPassword" />
+			<class name="com.hrm.testcases.UserManagementTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
