@@ -437,3 +437,8 @@
 [INFO ] 2023-01-08 18:55:52.880 [main] HRM-CClick on Login Button
 [INFO ] 2023-01-08 18:55:53.845 [main] HRM-Validate- Acutal and Expected Result
 [INFO ] 2023-01-08 18:55:53.856 [main] HRM-***************TestCase Verify Login ends *****************
+[INFO ] 2023-01-09 15:30:49.912 [main] HRM-****TestCase Verify ForGot Password starts*****
+[INFO ] 2023-01-09 15:30:49.978 [main] HRM-Click on Forgot Password Link
+[INFO ] 2023-01-09 15:30:50.870 [main] HRM-Enter Username
+[INFO ] 2023-01-09 15:30:51.125 [main] HRM-Click on ResetPassword button
+[INFO ] 2023-01-09 15:30:51.787 [main] HRM-Validation - Verify Exp and Act Result

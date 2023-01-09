@@ -10,6 +10,7 @@
     <classes>
         <class name="com.hrm.baseclass.Base"/>
        <class name="com.hrm.testcases.AdminLoginTest"/> 
+       <class name="com.hrm.testcases.VerifyForgotPassword"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
