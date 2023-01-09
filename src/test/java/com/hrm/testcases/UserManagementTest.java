@@ -18,7 +18,7 @@ public class UserManagementTest extends Base {
 		login.hrmAdminLogin(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
 	}
 
-	@Test(dataProviderClass = StaticDataProvider.class, dataProvider = "searchUser")
+	@Test(priority = 1,dataProviderClass = StaticDataProvider.class, dataProvider = "searchUser")
 	public void searchUser(String Username, String UserRole, String EmployeeName, String Status) {
 
 		logger.info("***** TestCase Verify search user starts *****");
@@ -47,7 +47,7 @@ public class UserManagementTest extends Base {
 
 	}
 
-	@Test(dataProviderClass = StaticDataProvider.class, dataProvider = "deleteUser")
+	@Test(priority = 2,dataProviderClass = StaticDataProvider.class, dataProvider = "deleteUser")
 	public void deleteUser(String UserName) {
 		
 		logger.info("***** TestCase Verify delete from user tabale starts *****");
@@ -70,7 +70,5 @@ public class UserManagementTest extends Base {
 				break;
 			}
 		}
-
 	}
-
 }

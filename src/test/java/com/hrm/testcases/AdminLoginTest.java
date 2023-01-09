@@ -18,7 +18,7 @@ public class AdminLoginTest extends Base{
 		CommanMethods.sendText(homepage.userid,Username);
 		logger.info("Enter Password");
 		CommanMethods.sendText(homepage.password,Passwrod);
-		logger.info("CClick on Login Button");
+		logger.info("Click on Login Button");
 		CommanMethods.click(homepage.btnLogin);
 		
 		logger.info("Validate- Acutal and Expected Result");

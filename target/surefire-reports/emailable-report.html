@@ -9,16 +9,64 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">HRM Application Test Cases</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,509</td><td></td><td></td></tr>
+<tr><td><a href="#t0">HRM Application Test Cases</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">113,945</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HRM Application Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.hrm.testcases.VerifyForgotPassword</td><td><a href="#m0">passWordRest</a></td><td rowspan="1">1673005763054</td><td rowspan="1">1301</td></tr><tr><th colspan="4">HRM Application Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.hrm.testcases.HrmLogin</td><td><a href="#m1">hrmAdminLogin</a></td><td rowspan="2">1673005752721</td><td rowspan="2">2445</td></tr><tr class="passedeven"><td><a href="#m2">hrmAdminLogin</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HRM Application Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.hrm.testcases.UserManagementTest</td><td><a href="#m0">deleteUser</a></td><td rowspan="1">1673259681646</td><td rowspan="1">41841</td></tr><tr class="failedeven"><td><a href="#m1">searchUser</a></td><td rowspan="1">1673259729431</td><td rowspan="1">43680</td></tr><tr class="failedodd"><td rowspan="1">com.hrm.testcases.VerifyForgotPassword</td><td><a href="#m2">passWordRest</a></td><td rowspan="1">1673259674706</td><td rowspan="1">1445</td></tr><tr><th colspan="4">HRM Application Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.hrm.testcases.AdminLoginTest</td><td><a href="#m3">hrmAdminLogin</a></td><td rowspan="2">1673259670326</td><td rowspan="2">1496</td></tr><tr class="passedeven"><td><a href="#m4">hrmAdminLogin</a></td></tr></tbody>
 </table>
-<h2>HRM Application Test Cases</h2><h3 id="m0">com.hrm.testcases.VerifyForgotPassword#passWordRest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+<h2>HRM Application Test Cases</h2><h3 id="m0">com.hrm.testcases.UserManagementTest#deleteUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>subhsh7979</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;resultTable&apos;]//tr[2]/td[2]&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;SUBHASH-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Subhash\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 108a00b7fa52dfb238f1099b9fc6b73c
+*** Element info: {Using=xpath, value=//table[@id=&apos;resultTable&apos;]//tr[2]/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.hrm.testcases.UserManagementTest.deleteUser(UserManagementTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.hrm.testcases.UserManagementTest#searchUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>subhsh7979</td><td>ESS</td><td>Subhash ingale</td><td>Enabled</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;resultTable&apos;]//tr[1]//td[2]&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;SUBHASH-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Subhash\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2df12be5aff0deca54aa7d192d39efb6
+*** Element info: {Using=xpath, value=//table[@id=&apos;resultTable&apos;]//tr[1]//td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.getText(Unknown Source)
+	at com.hrm.utilities.CommanMethods.getText(CommanMethods.java:27)
+	at com.hrm.testcases.UserManagementTest.searchUser(UserManagementTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.hrm.testcases.VerifyForgotPassword#passWordRest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>subhash</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
 	expected [Reset Password link sent successfully] but found [test]
-	at com.hrm.testcases.VerifyForgotPassword.passWordRest(VerifyForgotPassword.java:34)
+	at com.hrm.testcases.VerifyForgotPassword.passWordRest(VerifyForgotPassword.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.hrm.testcases.HrmLogin#hrmAdminLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Subhash@9596</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.hrm.testcases.HrmLogin#hrmAdminLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>123456.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.hrm.testcases.AdminLoginTest#hrmAdminLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>123456.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.hrm.testcases.AdminLoginTest#hrmAdminLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Subhash@9596</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

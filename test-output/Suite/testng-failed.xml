@@ -4,15 +4,24 @@
   <listeners>
     <listener class-name="com.hrm.utilities.ExtentListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="HRM Application Test Cases(failed)">
     <classes>
       <class name="com.hrm.testcases.VerifyForgotPassword">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="passWordRest"/>
+          <include name="passWordRest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.hrm.testcases.VerifyForgotPassword -->
+      <class name="com.hrm.testcases.UserManagementTest">
+        <methods>
+          <include name="deleteUser" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="searchUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hrm.testcases.UserManagementTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- HRM Application Test Cases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

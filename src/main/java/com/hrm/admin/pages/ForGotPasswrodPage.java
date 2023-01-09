@@ -20,5 +20,4 @@ public class ForGotPasswrodPage extends Base {
 	public ForGotPasswrodPage() {
 		PageFactory.initElements(driver, this);
 	}
-
 }
